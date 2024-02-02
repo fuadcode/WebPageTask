@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.header{
+    height: 666px;
+    position: relative;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    background-color:  #0096FF ;
+    padding: 10px;
+    float: left;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2{
+    height: 50%;
+    position: relative;
+    bottom:130px;
+    width: 100%;
+    padding: 10px;
+    float: left;  
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.title1{
+text-decoration: none;
+margin-left: 333px;
+position: relative;
+top:10px;
+font-weight: bolder;
+color:#fff;
+}
+
+.menu a{
+text-decoration: none;
+margin-right: 70px;
+bottom:666px;
+color:#000000;
+position: relative;
+top:15px;
+color:#fff;
+border-color: #fff;
+cursor: pointer;
+}
+
+
+.button1{
+   border:1px solid #fff;
+   padding: 8px;
+   padding-left: 16px;
+   padding-right: 16px;
+   margin-left: -20px;
+   cursor: pointer;
+}
+
+.center-text{
+ margin-left: 320px;
+ position: relative;
+ bottom:380px;
+ font-weight: bolder;
+ color:#fefdfd;
+ font-size: 30px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center-text h3{
+    font-size: 18px;
+    color:#efecec;
+    position: relative;
+    bottom:20px;
+}
+
+.center-text a{
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    bottom:20px;
+    border:5px solid rgb(46, 167, 46);
+    border-radius: 45px;
+    padding: 6px;
+    padding-left: 28px;
+    padding-right: 28px;
+    color:#fff;
+    background-color: rgb(46, 167, 46);
+}
+
+.register-banner{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin-right: 380px;
+    position: relative;
+    bottom:420px;
+    padding-left: 130px;
+    padding-bottom: 200px;
+}
+
+.register-banner h3{
+position: relative;
+bottom:800px;
+margin-left: 1000px;
+}
+
+.username{
+    width: 125%;
+    font-size: 15px;
+    margin-left: -100px;
+    position: relative;
+    bottom:28px;
+    background: #e5e5e5;
+    line-height: 35px;
+    border: none;
+    outline: none;
+}
+
+.email{
+    width: 125%;
+    font-size: 16px;
+    margin-left: -100px;
+    position: relative;
+    bottom:45px;
+    background: #e5e5e5;
+    line-height: 35px;
+    border: none;
+    outline: none;
+}
+
+.type {
+    width: 125%;
+    font-size: 15px;
+    margin-left: -100px;
+    position: relative;
+    bottom:45px;
+    background: #e5e5e5;
+    line-height: 35px;
+    border: none;
+    outline: none;
+}
+
+.Register-button{
+    width: 130%;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border:2px solid blue;
+    background-color: rgb(53, 53, 249);
+    color:#fff;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 1px;
+    position: relative;
+    bottom:30px;
+    margin-left: -100px;
+    font-family: inherit;
+}
+
+.Register-title{
+ font-size: 26px;
+ margin-left: -60px;
+ position: relative;
+ top:15px;
+ font-family: initial;
+}

@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.header h1{
+  position: relative;
+  top:20px;
+  margin-left: 290px;
+  font-family: "Courgette", cursive;
+  color: #fff;
+  font-size: 40px;
+}
+
+.menu{
+    background-color: rgb(189, 98, 225);
+    margin-left: -240px;
+    position: relative;
+    top:20px;
+    width: 140%;
+    height: 11%;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-left: 110px;
+    position: relative;
+    top:25px;
+    color: black;
+}
+
+.search-form{
+margin-left: 800px;
+position: relative;
+top:5px;
+}
+
+.search-button{
+    width: 70px;
+    background-color: rgb(42, 41, 41);
+    color: #fff;
+    cursor: pointer;
+}
+
+.banner{
+width: 350px;
+height: 45px;
+background-color: #ffffff;
+margin-left: 1px;
+position: relative;
+bottom:-12px;
+padding-left: 520px;
+padding-bottom: 400px;
+}
+
+.banner h2{
+    font-family: "Courgette", cursive;
+    font-size: 30px;
+    margin-left: -200px;
+    position: relative;
+    top:20px;
+    font-weight: bolder;
+}
+
+.banner p{
+    margin-left: -510px;
+    position: relative;
+    top:10px;
+}
+
+.banner h3{
+    font-family: "Courgette", cursive;
+    margin-left: -510px;
+    position: relative;
+    top:10px;
+    font-weight: bolder;
+}
+
+.right-banner{
+height: -50px;
+background-color: rgb(189, 98, 225);
+margin-left: 360px;
+position: relative;
+bottom:435px;
+padding-left: 244px;
+padding-bottom: 138px;
+}
+
+.right-banner h2{
+    margin-left:-220px;
+    position: relative;
+    top:25px;
+}
+
+.right-banner li {
+   margin-left: -220px;
+   position: relative;
+   top:-20px;
+   text-decoration: underline;
+   color:blue;
+}
+
+.footer{
+width: 350px;
+height: -50px;
+background-color: #ffffff;
+margin-left: -520px;
+position: relative;
+bottom:442px;
+padding-left: 775px;
+padding-bottom: 40px;
+}
+
+.footer p{
+margin-left: -770px;
+position: relative;
+top:30px;
+}
+
+.footer-text{
+    color:green;
+}

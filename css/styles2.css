@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    display: inline-block;
+}
+
+
+.aboutme {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-left: 350px;
+    position: relative;
+    top: 150px;
+}
+
+.leftbanner {
+    background-color: #131864;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightbanner {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightbanner h1 {
+    position: relative;
+    bottom: -70px;
+    margin-left: 40px;
+}
+
+.img-title {
+    width: 70%;
+    margin-left: -10px;
+    position: relative;
+    top: 50px;
+}
+
+.text1 {
+    color: #fff;
+    position: relative;
+    top: 30px;
+    margin-left: -10px;
+    font-size: 29px;
+}
+
+.text2 {
+    color: #fff;
+    position: relative;
+    top: -10px;
+    margin-left: -10px;
+    font-size: 18px;
+}
+
+.email-title {
+    position: relative;
+    bottom: -50px;
+    margin-left: -220px;
+}
+
+.phone-title {
+    position: relative;
+    bottom: 17px;
+    margin-left: 250px;
+}
+
+.emailadress {
+    position: relative;
+    bottom: 52px;
+    margin-left: -200px;
+    font-size: 18px;
+}
+
+.phonenumber {
+    position: relative;
+    bottom: 108px;
+    margin-left: 270px;
+    font-size: 18px;
+}
+
+.icon {
+    font-size: 1px;
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+}
+
+.icon ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+}
+
+.icon ul li {
+    list-style: none;
+    float: left;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    height: 4rem;
+    width: 4rem;
+    background-color: #122286;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.5s;
+    margin-left: -9px;
+}
+
+.icon ul li a i {
+    font-style: normal;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.icon ul li:hover {
+    background-color: #0a4658;
+}
+
+.icon ul li a {
+    font-size: 2.7rem;
+    color: #fff;
+    opacity: 1;
+}
+
+.hr {
+    width: 360px;
+    color: gray;
+    border-width: 3px;
+    position: relative;
+    top: 150px;
+    margin-left: 40px;
+}
